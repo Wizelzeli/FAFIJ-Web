@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.item {
+    display: flex;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin: 15px 5px 5px;
+    justify-content: space-between;
+    align-items: center;
+    background: #e0f7fa;
+    max-width: 720px;
+    word-break: break-word;
+}
+
+.item__buttons {
+    display: flex;
+}
+
+.item__content {
+
+    max-width: 400px;
+}
+
+body {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #0097a7;
+    text-align: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    display: inline-block;
+    color: #0097a7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li button {
+    display: inline-block;
+    color: #0097a7;
+    float: right;
+    text-decoration: none;
+}
+
+ul li span {
+    width: 48px;
+    height: 48px;
+    margin-top: 8px;
+    margin-left: 52px;
+    background-image: url('../journal_icon.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    color: #0097a7;
+    float: left;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #00838f;
+}
+
+
+.div_horizontal_parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.div_horizontal_child {
+    background: white;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+p {
+    font-family: "Kinetika";
+}
+
+strong {
+    font-family: "Kinetika";
+}
+
+h2 {
+    font-family: "Departura";
+    margin: 5px;
+}
+
+h3 {
+    font-family: "Departura";
+    margin: 5px;
+}
+
+@font-face {
+    font-family: "Departura";
+    src: url("../fonts/Departura.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Kinetika";
+    src: url("../fonts/Kinetika.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+

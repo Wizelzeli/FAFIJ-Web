@@ -1,0 +1,16 @@
+.customBtn {
+    padding: 5px 15px;
+    color: black;
+    font-size: 14px;
+    /*background: transparent;*/
+    border: 2px solid black;
+    border-radius: 2px;
+    margin: 5px;
+    cursor: pointer;
+    font-family: "Kinetika";
+    background: #b2ebf2;
+}
+
+.customBtn:hover {
+    background-color: #0097a7;
+}
